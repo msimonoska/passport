@@ -38,7 +38,7 @@ class PassportServiceProvider extends ServiceProvider
 
         $this->deleteCookieOnLogout();
 
-//        if ($this->app->runningInConsole()) {
+        if ($this->app->runningInConsole()) {
             $this->registerMigrations();
 
             $this->publishes([
@@ -60,7 +60,7 @@ class PassportServiceProvider extends ServiceProvider
                 Console\KeysCommand::class,
                 Console\PurgeCommand::class,
             ]);
-//        }
+        }
     }
 
     /**
