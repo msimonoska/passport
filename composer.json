@@ -50,7 +50,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "passport-laravel-mongodb"
+            "dev-master": "20.x-dev"
         },
         "laravel": {
             "providers": [
